@@ -1,21 +1,21 @@
 import * as React from "react"
-import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
+  <Layout >
+    <SEO title="Super Papa Gâto" />
     <h1>Bienvenue</h1>
-    <p>Prochainement le site officiel de Super Papa Gato</p>
+    <p>Super Papa Gato confectionne des gâteaux sur mesures.</p>
+    <p>Une touche d'émerveillement aux fêtes d'enfant!</p>
     <StaticImage
-      src="../images/gatsby-astronaut.png"
+      src="../images/gateau50_crop.jpg"
       width={300}
       quality={95}
       formats={["AUTO", "WEBP", "AVIF"]}
-      alt="A Gatsby astronaut"
+      alt="un papa gâteau"
       style={{ marginBottom: `1.45rem` }}
     />
   </Layout>
