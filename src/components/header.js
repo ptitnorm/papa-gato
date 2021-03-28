@@ -15,7 +15,6 @@ const Header = ({ siteTitle }) => (
     <div
       style={{
         margin: `0 auto`,
-        maxWidth: 960,
         padding: `1.45rem 1.0875rem`,
       }}
     >
@@ -23,16 +22,18 @@ const Header = ({ siteTitle }) => (
         <div
           style={{
             width: `100%`,
+            display: `inline-block`,
+            height: `25px`
           }}
         >
           <MenuButton buttonTitle="Accueil" />
           <MenuButton buttonTitle="Photos" /> 
           <MenuButton buttonTitle="Commandes" /> 
           <MenuButton buttonTitle="Contact"/> 
-          <div style={{ width: `15%`,}}>
-            <img src={fblogo} alt="Logo" style={{width:20,height:20,}}/>
-            <img src={instlogo} alt="Logo" style={{width:20,height:20,}}/>
-          </div>
+          
+          <a href="https://www.facebook.com/Super-Papa-G%C3%A2to-102639401927726"><img src={fblogo} alt="Logo" style={{width:20,height:20,}}/></a>
+          <a href="https://www.facebook.com/Super-Papa-G%C3%A2to-102639401927726"><img src={instlogo} alt="Logo" style={{width:20,height:20,}}/></a> 
+          
 
         </div>
    

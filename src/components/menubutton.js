@@ -12,6 +12,7 @@ const MenuButton = ({ buttonTitle }) => (
             textAlign: `center`,
             fontFamily: `Raleway`,
             fontSize: `medium`,
+            diplay: `inline-block`,
           }}
         >
           {buttonTitle}
