@@ -1023,6 +1023,11 @@
     "minimatch" "^3.0.4"
     "strip-json-comments" "^3.1.1"
 
+"@fontsource/raleway@^4.2.2":
+  "integrity" "sha512-hRtk9NJpCpI3ru8EZdyWvS212Nx1UoHS52AwVxV/ltgfxYamLv7GurwcWzRNRuY3gi9c6PzErJQXyifFkxiHLQ=="
+  "resolved" "https://registry.npmjs.org/@fontsource/raleway/-/raleway-4.2.2.tgz"
+  "version" "4.2.2"
+
 "@gatsbyjs/reach-router@^1.3.6":
   "integrity" "sha512-RW9ZBir9kqtw4IWm+Z+DLWGOeoJxoaTvNVrnR5fV9zD8EmfAhbBN/hS6i6VnTMFZ7rdd6mnpx2/XtnMvYfsaVQ=="
   "resolved" "https://registry.npmjs.org/@gatsbyjs/reach-router/-/reach-router-1.3.6.tgz"
