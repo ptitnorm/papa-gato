@@ -11,16 +11,17 @@ const IndexPage = () => (
       <h1>Bienvenue</h1>
       <p>Super Papa Gato confectionne des gâteaux sur mesures.</p>
       <p>Une touche d'émerveillement aux fêtes d'enfant!</p>
+        <StaticImage
+        src="../images/airbrush.jpg"
+        width={300}
+        quality={95}
+        formats={["AUTO", "WEBP", "AVIF"]}
+        alt="un papa gâteau"
+        style={{ marginBottom: `1.45rem` }}
+      />
     </div>
 
-    <StaticImage
-      src="../images/airbrush.jpg"
-      width={300}
-      quality={95}
-      formats={["AUTO", "WEBP", "AVIF"]}
-      alt="un papa gâteau"
-      style={{ marginBottom: `1.45rem` }}
-    />
+
   </Layout>
 )
 
