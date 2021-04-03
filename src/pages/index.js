@@ -19,7 +19,7 @@ const IndexPage = () => (
     <SEO title="Super Papa Gâto" />
     <div style={{fontFamily: `Raleway`}}>
       <h1>Bienvenue</h1>
-      <p>Super Papa Gato confectionne des gâteaux sur mesures.</p>
+      <p>Super Papa Gâto confectionne des gâteaux sur mesures.</p>
       <p>Une touche d'émerveillement aux fêtes d'enfant!</p>
         <StaticImage
         src="../images/airbrush.png"
@@ -30,8 +30,6 @@ const IndexPage = () => (
         style={{ marginBottom: `1.45rem` }}
       />
     </div>
-
-
   </Layout>
 )
 

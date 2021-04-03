@@ -1,6 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 import { Link } from "gatsby"
+import "@fontsource/raleway/400.css"
 
 const NavItem = styled(Link)`
   text-decoration: none;
@@ -10,6 +11,7 @@ const NavItem = styled(Link)`
   margin: 0 1vw;
   transition: all 200ms ease-in;
   position: relative;
+  font-family: Raleway,sans-serif;
 
   :after {
     position: absolute;
@@ -41,9 +43,9 @@ const NavbarLinks = () => {
   return (
     <>
       <NavItem to="/">Accueil</NavItem>
-      <NavItem to="/404">Photos</NavItem>
+      <NavItem to="/">Photos</NavItem>
       <NavItem to="/">Commandes</NavItem>
-      <NavItem to="/404">Contact</NavItem>
+      <NavItem to="/">Contact</NavItem>
     </>
   )
 }
