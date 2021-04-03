@@ -22,7 +22,7 @@ const IndexPage = () => (
       <p>Super Papa Gato confectionne des gâteaux sur mesures.</p>
       <p>Une touche d'émerveillement aux fêtes d'enfant!</p>
         <StaticImage
-        src="../images/airbrush.jpg"
+        src="../images/airbrush.png"
         width={300}
         quality={95}
         formats={["AUTO", "WEBP", "AVIF"]}
