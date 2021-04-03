@@ -2,7 +2,17 @@ import * as React from "react"
 import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import styled from "styled-components"
+
 import "@fontsource/raleway/"
+
+const H1 = styled.h1`
+  color: goldenrod;
+  a {
+    text-decoration: none;
+    color: coral;
+  }
+`
 
 const IndexPage = () => (
   <Layout >
@@ -24,5 +34,6 @@ const IndexPage = () => (
 
   </Layout>
 )
+
 
 export default IndexPage
