@@ -29,16 +29,16 @@ const Header = ({ siteTitle }) => (
           <MenuButton buttonTitle="Accueil" />
           <MenuButton buttonTitle="Photos" /> 
           <MenuButton buttonTitle="Commandes" /> 
-          <MenuButton buttonTitle="Contact"/> 
-          
-          <a href="https://www.facebook.com/Super-Papa-G%C3%A2to-102639401927726"><img src={fblogo} alt="Logo" style={{width:20,height:20,}}/></a>
-          <a href="https://www.facebook.com/Super-Papa-G%C3%A2to-102639401927726"><img src={instlogo} alt="Logo" style={{width:20,height:20,}}/></a> 
-          
-
+          <div
+            style={{
+              float: `right`,
+            }}
+          >
+            <a href="https://www.facebook.com/Super-Papa-G%C3%A2to-102639401927726"><img src={fblogo} alt="Logo" style={{width:20,height:20,}}/></a>
+            <a href="https://www.facebook.com/Super-Papa-G%C3%A2to-102639401927726"><img src={instlogo} alt="Logo" style={{width:20,height:20,}}/></a> 
+          </div>
         </div>
-   
       </h1>
-
     </div>
   </header>
 )
