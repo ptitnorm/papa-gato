@@ -10,9 +10,10 @@ const MenuButton = ({ buttonTitle }) => (
             textDecoration: `none`,
             padding: 10,
             textAlign: `center`,
-            fontFamily: `Raleway`,
+            fontFamily: `Raleway,sans-serif`,
             fontSize: `medium`,
-            diplay: `inline-block`,
+            fontWeight: 500,
+            diplay: 'inlinde-block',
           }}
         >
           {buttonTitle}
